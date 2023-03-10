@@ -1,16 +1,18 @@
 import React from 'react'
 import './About.scss'
 import '../Home/home.scss'
+
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 import { useState, useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 import {
   faCss3,
   faGitAlt,
   faHtml5,
   faJsSquare,
   faReact,
-  faWolfPackBattalion,
+  faNodeJs,
 } from '@fortawesome/free-brands-svg-icons'
 
 const About = () => {
@@ -32,6 +34,7 @@ const About = () => {
             idx={15}
           />
         </h1>
+        <div className="glow-line"></div>
         <p>
           Hello my name is Filip and I enjoy creating things that live on the
           internet. My interest in web development started back in 2022 when I
@@ -50,9 +53,21 @@ const About = () => {
           build a web app with the Spotify API using Node & React. Here are a
           few technologies I’ve been working with recently.
         </p>
+        <div className="glow-line"></div>
+        <div className="language-icons-container">
+          <FontAwesomeIcon className="f1" icon={faReact} />
+          <FontAwesomeIcon className="f2" icon={faCss3} />
+          <FontAwesomeIcon className="f3" icon={faHtml5} />
+          <FontAwesomeIcon className="f5" icon={faJsSquare} />
+          <FontAwesomeIcon className="f6" icon={faNodeJs} />
+          <FontAwesomeIcon className="f4" icon={faGitAlt} />
+        </div>
+        <div className="arrow-container">
+          <FontAwesomeIcon className="arrow-down" icon={faArrowDown} />
+        </div>
       </div>
 
-      <div className="stage-cube-cont">
+      {/* <div className="stage-cube-cont">
         <div className="cubespinner">
           <div className="face2">
             <FontAwesomeIcon icon={faWolfPackBattalion} color="#1d1d1d" />
@@ -73,7 +88,7 @@ const About = () => {
             <FontAwesomeIcon icon={faJsSquare} />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
