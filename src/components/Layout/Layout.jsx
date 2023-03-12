@@ -9,8 +9,8 @@ const Layout = () => {
       <div className="wip-cont">
         <h1 className="work-in-progress">WORK IN PROGRESS</h1>
         <p>
-          <span className="contact-arrow">↙️</span> If you want to reach out and
-          connect on{' '}
+          <span className="contact-arrow">↙️</span> If you want to reach out,
+          connect with me on{' '}
           <a
             className="linked"
             href="https://www.linkedin.com/in/filip-windahl-98930317a/"
