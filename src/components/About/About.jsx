@@ -1,4 +1,5 @@
 import React from 'react'
+import Typical from 'react-typical'
 import './About.scss'
 import '../Home/home.scss'
 
@@ -35,6 +36,16 @@ const About = () => {
           />
         </h1>
         <div className="glow-line"></div>
+        <p>
+          {' '}
+          I am a{' '}
+          <Typical
+            className="write-text"
+            loop={Infinity}
+            wrapper="bold"
+            steps={['Developer!', 2000, 'Frontend Developer!', 2000]}
+          />
+        </p>
         <p>
           Hello my name is Filip and I enjoy creating things that live on the
           internet. My interest in web development started back in 2022 when I
