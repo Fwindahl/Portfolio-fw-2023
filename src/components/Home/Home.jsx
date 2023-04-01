@@ -72,7 +72,7 @@ const Home = () => {
       </div>
       <div className="hero-container">
         <div className="border-line">
-          <img className="hero" src="/img/anime.jpg" alt="Me" />
+          <img className="hero" src="/img/hero.jpg" alt="Me" />
           <img
             className="hero-circle"
             src="../img/FW-Logo-Circle2.png"
