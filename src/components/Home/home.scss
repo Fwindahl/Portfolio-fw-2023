@@ -87,7 +87,7 @@ h1 {
 .hero-container {
   display: flex;
   align-items: center;
-  min-height: 80%;
+  min-height: 100%;
   width: 40%;
   animation: myAnim 1s ease 0s 1 normal forwards;
   .hero {
@@ -336,10 +336,10 @@ h1 {
 }
 @media screen and (max-width: 1600px) {
   .text-zone {
-    max-width: 600px;
+    max-width: 380px;
   }
   .hero-container .hero {
-    max-width: 300px;
+    max-width: 400px;
   }
   .hero-container .little-bout-me-text {
     padding: 20px;

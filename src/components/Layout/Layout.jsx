@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom'
 const Layout = () => {
   return (
     <div className="App">
-      <div className="wip-cont">
+      {/* <div className="wip-cont">
         <h1 className="work-in-progress">WORK IN PROGRESS</h1>
         <p>
           <span className="contact-arrow">↙️</span> If you want to reach out,
@@ -18,7 +18,7 @@ const Layout = () => {
             Linkedin
           </a>
         </p>
-      </div>
+      </div> */}
       <Sidebar />
       <div className="page">
         <span className="tags top-tags">&lt;body&gt;</span>
