@@ -73,11 +73,7 @@ const Home = () => {
       <div className="hero-container">
         <div className="border-line">
           <img className="hero" src="/img/hero.jpg" alt="Me" />
-          <img
-            className="hero-circle"
-            src="../img/FW-Logo-Circle2.png"
-            alt="initialer"
-          />
+
           <div className="img-text-container">
             <div className="little-bout-me-text">
               <h3>Little About Me</h3>
