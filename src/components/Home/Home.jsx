@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import './home.scss'
+// import hero from '../../../../public/img/anime.jpg'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 
 const Home = () => {
@@ -71,7 +72,7 @@ const Home = () => {
       </div>
       <div className="hero-container">
         <div className="border-line">
-          <img className="hero" src="../img/anime.jpg" alt="Me" />
+          <img className="hero" src="/img/anime.jpg" alt="Me" />
           <img
             className="hero-circle"
             src="../img/FW-Logo-Circle2.png"
