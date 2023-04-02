@@ -303,18 +303,42 @@ h1 {
   }
 }
 //---------------------------------------
-.hero-circle {
+.img-mobile {
   display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .hero-container {
+    display: none;
+  }
+  .img-mobile {
+    display: block;
+  }
+  .img-mobile img {
+    width: 300px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    border: 2px solid #f2b137;
+  }
+  // .hero-container .little-bout-me-text {
+  //   display: none;
+  // }
+  // .hero-container .border-line:hover .img-text-container {
+  //   visibility: hidden;
+  //   z-index: -999;
+  // }
+  // .hero-container .img-text-container::before,
+  // .hero-container .img-text-container::after {
+  //   display: none;
+  // }
+  // .hero-container .img-text-container::after {
+  //   display: none;
+  // }
 }
 @media screen and (max-width: 800px) {
   .hero {
     max-height: 305px;
   }
-  .hero-circle {
-    display: flex;
-    max-width: 40%;
-    border-radius: 100%;
-  }
+
   .hero-container {
     min-height: 0;
     .border-line {

@@ -70,6 +70,9 @@ const Home = () => {
           Get In Touch
         </Link>
       </div>
+      <div className="img-mobile">
+        <img src="/img/hero.jpg" alt="" />
+      </div>
       <div className="hero-container">
         <div className="border-line">
           <img className="hero" src="/img/hero.jpg" alt="Me" />
