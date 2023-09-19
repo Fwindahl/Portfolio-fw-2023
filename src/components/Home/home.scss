@@ -356,16 +356,9 @@ h1 {
     line-height: 52px;
   }
   .flat-button {
-    filter: drop-shadow(0 0 0.75rem#f2b137);
     width: 40%;
-    letter-spacing: 1px;
     color: white;
-    text-shadow: 1px 2px 3px #161c28;
-    outline: 2px solid transparent;
     padding: 15px 80px;
-    background-color: #f2b137;
-    border: none;
-    transform: skewX(0deg);
     font-size: 18px;
   }
 }
