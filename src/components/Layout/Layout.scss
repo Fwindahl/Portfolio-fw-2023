@@ -25,11 +25,39 @@
   text-shadow: 5px 1px 2px black;
 }
 .work-in-progress {
+  animation: heartBeat 2s ease 0s infinite normal forwards;
   letter-spacing: 6px;
   font-size: 100px;
 }
 .linked {
   color: white;
+}
+@keyframes heartBeat {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+
+  10% {
+    animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+
+  17% {
+    animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+
+  33% {
+    animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+
+  45% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
 }
 @media screen and (max-width: 1000px) {
   .wip-cont {
