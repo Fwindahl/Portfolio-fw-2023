@@ -46,25 +46,28 @@ h1 {
 .flat-button {
   border-radius: 8px;
   text-align: center;
-  width: 15%;
+  width: 95%;
+  max-width: 300px;
+  text-align: center;
+  padding: 16px 0px;
   position: relative;
   display: block;
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-  outline: 2px solid #f2b137;
-  padding: 12px 60px;
+  outline: 1px solid #f2b137;
   overflow: hidden;
   transition: color 1s;
   background-color: #161c28;
   cursor: pointer;
   border: none;
   transform: skewX(-5deg);
-  font-size: 15px;
+  font-size: 20px;
   animation: fadeInAnimation 1s 2s;
 }
 .flat-button:hover {
   color: black;
+  box-shadow: 20px 20px 60px #1f2634;
 }
 .flat-button::before {
   content: '';
@@ -83,6 +86,28 @@ h1 {
   transform: scale(1) skewX(120deg) skewY(0deg);
   filter: drop-shadow(0 0 0.35rem #f2b137);
 }
+// .flat-button {
+//   appearance: button;
+//   text-decoration: none;
+//   width: 95%;
+//   max-width: 300px;
+//   text-align: center;
+//   padding: 16px 0px;
+//   color: rgb(255, 255, 255);
+//   border-radius: 20px;
+//   cursor: pointer;
+//   font-size: 20px;
+//   font-weight: 600;
+//   background: -webkit-linear-gradient(185deg, #f2b137 0%, #f46737 100%);
+//   box-shadow: rgb(31, 38, 52) 20px 20px 60px, rgb(31, 38, 52) -20px -20px 60px;
+//   transition: all 0.2s ease-in-out 0s !important;
+// }
+// .flat-button:hover {
+//   transform: scale(1.05);
+//   transition: all 0.4s ease-in-out;
+//   box-shadow: 20px 20px 60px #1f2634;
+//   filter: brightness(1);
+// }
 
 .hero-container {
   display: flex;
@@ -110,7 +135,7 @@ h1 {
     display: flex;
     justify-content: flex-start;
     border: 0.5px solid #f2b137;
-    filter: drop-shadow(0 0 0.35rem #f2b137);
+    filter: drop-shadow(0 0 0.45rem #f2b137);
     align-items: center;
     min-height: 80%;
     position: relative;
@@ -235,17 +260,17 @@ h1 {
       text-align: center;
       text-transform: uppercase;
       color: #fff;
-      outline: 2px solid #f2b137;
+      outline: 1px solid #f2b137;
       padding: 12px 60px;
       border: 1px solid transparent;
       background-color: #161c28;
       cursor: pointer;
-      transition: border-radius 500ms;
+      transition: background-color 300ms ease-in-out,
+        border-radius 300ms ease-in-out;
     }
     .kr-button:hover {
       background-color: #f2b137;
       color: #161c28;
-      font-weight: 800;
       border-radius: 8px;
     }
   }
